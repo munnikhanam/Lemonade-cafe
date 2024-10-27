@@ -9,6 +9,7 @@
     <script>
       tailwind.config = {
         theme: {
+          fontFamily: { manrope: ["Manrope", "serif"] },
           extend: {
             colors: {
               clifford: "#da373d",
@@ -33,7 +34,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
       <!-- header-part -->
       <header class="lg:flex mb-20 pt-10 border-solid border-indigo-600">
@@ -268,6 +269,193 @@
         </div>
       </section>
       <!-- review-part-ended -->
+      <!-- news and events-part started -->
+      <section class="news-and-event-part mb-32 py-5 bg-slate-50 rounded-lg">
+        <div class="news-tittle-part">
+          <h2 class="text-3xl text-[#1c1c1c] font-bold text-center">
+            News & Events
+          </h2>
+          <p class="w-2/3 text-[#777777] text-1xl mt-2 mb-2 mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div
+          class="news-cards-part grid grid-cols-1 md:grid-cols-3 p-5 m-2 gap-4"
+        >
+          <div class="card p-5 rounded-xl shadow-md">
+            <img class="w-full" src="./images/news-1.png" alt="" />
+            <p class="text-[#777777] text-base m-2">Feb 05, 2027</p>
+            <h5 class="text-xl font-bold text-[#1c1c1c] m-2">
+              Collecting 8 points for discount
+            </h5>
+            <p class="text-[#777777] text-base mb-2">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <button>
+              <a
+                href=""
+                class="text-base font-bold no-underline hover:text-[orange]"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="card p-5 rounded-xl shadow-md">
+            <img class="w-full" src="./images/news-2.png" alt="" />
+            <p class="text-[#777777] text-base m-2">Feb 05, 2027</p>
+            <h5 class="text-xl font-bold text-[#1c1c1c] m-2">
+              Collecting 8 points for discount
+            </h5>
+            <p class="text-[#777777] text-base mb-2">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <button>
+              <a
+                href=""
+                class="text-base font-bold no-underline hover:text-[orange]"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="card p-5 rounded-xl shadow-md">
+            <img class="w-full" src="./images/news-3.png" alt="" />
+            <p class="text-[#777777] text-base m-2">Feb 05, 2027</p>
+            <h5 class="text-xl font-bold text-[#1c1c1c] m-2">
+              Collecting 8 points for discount
+            </h5>
+            <p class="text-[#777777] text-base mb-2">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <button>
+              <a
+                href=""
+                class="text-base font-bold no-underline hover:text-[orange]"
+                >Learn More</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- news and events-part ended -->
     </main>
+    <!-- footer-part-started -->
+    <footer class="py-16 bg-gradient-to-r from-red-50 to-red-100 w-100%">
+      <div class="footer-content md:mx-auto md:w-5/6 px-4">
+        <div class="footer-logo-content grid grid-cols-2 gap-4">
+          <img class="" src="./images/cup.png" alt="" />
+          <div class="footer-logo-text flex items-center justify-center gap-8">
+            <p class="text-lg text-[#777777]">Ready to get strated?</p>
+            <button
+              class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-4 py-3 text-white text-lg font-bold rounded-lg"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div
+          class="footer-details-part grid grid-cols-2 md:grid-cols-4 gap-6 py-10"
+        >
+          <div>
+            <h5 class="text-xl font-bold text-[#1C1C1C] m-2">Quick Links</h5>
+            <ul class="list-none m-2">
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >About-Us</a
+                >
+              </li>
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >Insurance</a
+                >
+              </li>
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-xl font-semibold text-[#1C1C1C] m-2">
+              Our Service
+            </h5>
+            <ul class="list-none m-2">
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >Life Insurance</a
+                >
+              </li>
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >Car Insurance</a
+                >
+              </li>
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >Health Insurance</a
+                >
+              </li>
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >House Insurance</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-xl font-semibold text-[#1C1C1C] m-2">Help</h5>
+            <ul class="list-none m-2">
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >FAQs</a
+                >
+              </li>
+              <li>
+                <a href="" class="py-2 text-base text-[#777777] no-underline"
+                  >Contract US</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-xl font-semibold text-[#1C1C1C] m-2">
+              Subscribe to our newsletter
+            </h5>
+            <div class="flex flex-col space-y-2">
+              <div>
+                <input
+                  class="bg-transparent border-b-2 border-black w-4/6 md:w-5/6"
+                  type="text"
+                  placeholder="Email address"
+                />
+                <i
+                  class="fa-solid fa-angle-right bg-orange-500 rounded-full w-7 h-7 inline-flex text-white justify-center items-center"
+                ></i>
+              </div>
+              <div
+                class="flex justify-between items-center w-2/5 md:5/6 mt-8 mb-2 md:mt-10"
+              >
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 mb-4 pt-4">
+        <p class="text-[#494949] text-base">
+          © 2027 UIDesign.to - All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
